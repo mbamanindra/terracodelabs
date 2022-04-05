@@ -4,8 +4,8 @@ provider "aws" {
 
 
 resource "aws_instance" "ourfirst" {
-  ami           = "ami-0b9b188c3820fc461"
-  instance_type = "t3a.small"
+  ami           = "ami-0553264457fca256a"
+  instance_type = "t2.medium"
   tags = { 
        Name = "server-pipeline"
        env = "development"
