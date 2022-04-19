@@ -1,11 +1,11 @@
 provider "aws" {
-  region     = "ap-southeast-1"
+  region     = "ap-south-1"
 }
 
 
 resource "aws_instance" "ourfirst" {
-  ami           = "ami-0553264457fca256a"
-  instance_type = "t2.medium"
+  ami           = "ami-0d2986f2e8c0f7d01"
+  instance_type = "t2.micro"
   tags = { 
        Name = "server-pipeline-1"
        env = "development"
