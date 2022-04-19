@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
-    bucket = "manindra-jenkins"
-    key    = "remote.tfstate"
-    region = "ap-southeast-1"
+    bucket = "manindra-jenkins1"
+    key    = "terraform/terraform.tfstate"
+    region = "ap-south-1"
   }
 }
