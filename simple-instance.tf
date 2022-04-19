@@ -1,6 +1,5 @@
 provider "aws" {
-  profile = "default"
-  region     = "ap-south-1"
+    region     = "ap-south-1"
 }
 resource "aws_instance" "ourfirst" {
   ami           = "ami-0d2986f2e8c0f7d01"
